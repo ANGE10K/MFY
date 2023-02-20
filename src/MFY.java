@@ -37,6 +37,7 @@ public class MFY {
             e.printStackTrace();
         }
     }
+    // лучше проименовать более информативно, не просто i, избегаем однобуквенного нейминга
     void scan(int i) {
         synchronized (monitor1) {
         System.out.println("Документ передан на сканирование!");
